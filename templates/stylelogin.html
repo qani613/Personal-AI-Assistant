@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <title>Login Page</title>
+    <style>
+         body {
+            background-color: #343541;
+        }
+
+        .text-center {
+	        color: #ACACBE;
+}
+
+        input[type="text"], input[type="password"] {
+            background-color: #444654;
+            color: #ACACBE; /* Text color */
+            /* Additional input styling */
+            border: none;
+        }
+
+        .btn {
+            margin-right: 10px;
+            padding: 5px;
+            background-color: #444654;
+            outline: #444654;
+            border: none;
+            border-radius: 4px;
+            color: #ACACBE; /* Text color */
+            /* Additional button styling */
+        }
+
+        :hover.btn{
+            background-color: #5B5E71;
+        }
+
+        label {
+	        color: #ACACBE;
+}
+    </style>
+</head>
+<body>
+    {% block content %}{% endblock %}
+</body>
+</html>
